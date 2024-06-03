@@ -1,0 +1,44 @@
+body {
+    background-color: #1A2529;
+}
+
+#logo-img{
+    margin-left: 50px;
+    width: 10rem;
+}
+
+#hamburger-icon{
+    margin-bottom: 3px;
+}
+
+.navbar-toggler{
+    margin-right: 50px;
+    border-color: #fff;
+}
+  
+.navbar-toggler-icon {
+    color: white;
+} 
+
+.navbar-nav{
+    margin-right: 50px;
+}
+
+.nav-item a{ 
+    color: #fff;
+}
+
+.nav-item a:hover{ 
+    color: #FF9A00;
+}
+
+@media screen and (max-width: 800px){
+    #logo-img{
+        margin-left: 10px;
+        width: 5rem;
+    }
+
+    .navbar-toggler{
+        margin-right: 10px;
+    }
+}
