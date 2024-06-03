@@ -2,6 +2,8 @@ body {
     background-color: #1A2529;
 }
 
+/*************************** Navbar ****************************/
+
 #logo-img{
     margin-left: 50px;
     width: 10rem;
@@ -32,6 +34,21 @@ body {
     color: #FF9A00;
 }
 
+/*************************** Login ****************************/
+
+.container{
+    margin-top: 5%;
+}
+
+#login-img{
+    width: 80%;
+}
+
+.login-form{
+    border-radius: 50px;
+    background-color: #fff;
+}
+
 @media screen and (max-width: 800px){
     #logo-img{
         margin-left: 10px;
@@ -40,5 +57,9 @@ body {
 
     .navbar-toggler{
         margin-right: 10px;
+    }
+
+    #login-img{
+        margin-bottom: 5%;
     }
 }
