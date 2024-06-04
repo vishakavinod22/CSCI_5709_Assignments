@@ -4,32 +4,34 @@ import hamburgerIcon from '../images/hamburger.png';
 
 function Navbar(){
     return(
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+       /**  chatGPT **/
+        <nav className="navbar navbar-expand-lg">
+            <div className="container-fluid">
+                <a className="navbar-brand" href="#">
                     <img src={logo} alt="logo for EventAura" id="logo-img" />
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span><img src={hamburgerIcon} alt="hamburger icon" id="hamburger-icon"/></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav ms-auto">
+                        <li className="nav-item">
+                            <a className="nav-link" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">About Us</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">FAQs</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">FAQs</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Contact Us</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+        /**  chatGPT **/
     );
 }
 

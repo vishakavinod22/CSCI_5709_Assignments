@@ -44,15 +44,104 @@ body {
     width: 80%;
 }
 
-.login-form{
-    border-radius: 50px;
+.login-form-container{
+    border-radius: 30px;
     background-color: #fff;
+    margin-right: 100px;
+    /* margin-left: 50px; */
 }
+
+.login-form{
+    margin-top: 2rem;
+}
+
+.form-input input{
+    color: #fff;
+    background: #1A2529;
+    border-radius: 20px;
+    width: 80%;
+    height: 3rem;
+    margin-bottom: 20px;
+    padding-left: 2rem;
+}
+
+.form-input input::placeholder{
+    color: #A6A6A6;
+}
+
+.forgot-password{
+    margin-top: -20px;
+    text-align: right;
+    width: 88%;
+}
+
+.forgot-password a{
+    text-decoration: none;
+    color: #3282B8;
+    font-size: small;
+}
+
+.form-input .login-btn{
+    margin-top: 18px;
+    width: 20%;
+    height: 2.5rem;
+    padding: 0;
+    font-weight: 700;
+}
+
+.form-input .login-btn:hover{
+    color: #1A2529;
+    background: #FF9A00;
+}
+
+/**  chatGPT **/
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+
+.divider-text {
+    margin: 0 10px;
+    color: #000;
+}
+/**  chatGPT **/
+
+.google-login-btn{
+    margin: 22px auto;
+    background: #1A2529;
+    color: #fff;
+    border-radius: 50px;
+    width: 80%;
+    height: 3rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.google-login-btn:hover{
+    color: #1A2529;
+    background: #FF9A00;
+}
+.google-icon{
+    width: 2rem;
+    /* margin-left: -5rem; */
+    margin-right: 2rem;
+}
+  
 
 @media screen and (max-width: 800px){
     #logo-img{
         margin-left: 10px;
-        width: 5rem;
+        width: 8rem;
     }
 
     .navbar-toggler{
@@ -61,5 +150,40 @@ body {
 
     #login-img{
         margin-bottom: 5%;
+        width: 100%;
+    }
+
+    .login-form-container{
+        margin: auto 40px 20px 40px;
+    }
+
+    .login-form{
+        margin-top: 1rem;
+    }
+
+    .form-input input{
+        width: 90%;
+        height: 2.5rem;
+        padding-left: 2rem;
+    }
+
+    .form-input .login-btn{
+        margin-top: 20px;
+        width: 50%;
+        height: 2.5rem;
+    }
+
+    .divider {
+        margin: 5px 0;
+    }
+
+    .google-login-btn{
+        width: 90%;
+        height: 2.5rem;
+    }
+    .google-icon{
+        width: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 }
