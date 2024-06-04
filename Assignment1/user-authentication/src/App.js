@@ -5,7 +5,6 @@ import Navbar from './Components/Navbar';
 import UserProfile from './Components/UserProfile';
 import ResetPassword from './Components/ResetPassword';
 import './App.css';
-import { useState } from "react";
 import StaticPages from "./Components/StaticPages";
 
 function App() {
