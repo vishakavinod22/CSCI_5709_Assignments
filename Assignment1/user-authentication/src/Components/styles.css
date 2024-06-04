@@ -48,7 +48,7 @@ body {
     border-radius: 30px;
     background-color: #fff;
     margin-right: 100px;
-    /* margin-left: 50px; */
+    text-align: center;
 }
 
 .login-form{
@@ -100,7 +100,7 @@ body {
     align-items: center;
     text-align: center;
     width: 100%;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .divider::before,
@@ -136,9 +136,26 @@ body {
     /* margin-left: -5rem; */
     margin-right: 2rem;
 }
+
+.create-account{
+    font-size: small;
+}
+
+.error-message {
+    font-size: small;
+    color: red;
+}
+
+/*************************** User Profile ****************************/
+
+.user-profile-container{
+    color: #fff;
+    text-align: center;
+}
   
 
 @media screen and (max-width: 800px){
+    /*************************** Navbar ****************************/
     #logo-img{
         margin-left: 10px;
         width: 8rem;
@@ -148,6 +165,7 @@ body {
         margin-right: 10px;
     }
 
+    /*************************** Login ****************************/
     #login-img{
         margin-bottom: 5%;
         width: 100%;
