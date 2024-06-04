@@ -43,7 +43,7 @@ function Login(){
                 <div className="row">
                     <div className="col-md-6">
                         <div className="p-3 img-col">
-                            <img src={loginImg} alt="Image of an event stall" id="login-img" />
+                            <img src={loginImg} alt="Event stall" id="login-img" />
                         </div>
                     </div>
                     <div className="col-md-6">
