@@ -3,6 +3,7 @@ import loginImg from '../images/login-image.png';
 import googleIcon from '../images/search.png';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function Login(){
 
@@ -71,7 +72,7 @@ function Login(){
                                         required/>
                                 </div>
                                 <div className="forgot-password">
-                                    <a href='/resetPassword'>Forgot Password?</a>
+                                    <Link to="/resetPassword" className="nav-link"> Forgot Password? </Link>
                                 </div>
                                 <div className="form-input">
                                     <input className='login-btn' type="submit" value="LOGIN" />
@@ -87,7 +88,8 @@ function Login(){
                                 Login with Google
                             </button>
                             <div className="create-account">
-                                <p>Dont have an account? Click <a href='/signup'>here</a> to SIGN UP! </p>
+                                <p>Dont have an account? Click <Link to="/signup" className="nav-link"> here </Link> to SIGN UP! </p>
+                                
                             </div>
                         </div>
                     </div>

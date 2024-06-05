@@ -12,15 +12,18 @@ function App() {
   return (
     // https://www.makeuseof.com/redirect-user-after-login-react/
     <div>
-      <Navbar/>
       <BrowserRouter>
-          <Routes>
-              <Route path="/" element={<Login />} />
-              <Route path="/signup" element={<SignUp />} />
-              <Route path="/dashboard" element={<UserProfile />} />
-              <Route path="/resetPassword" element={<ResetPassword />} />
-              <Route path="/staticPages" element={<StaticPages />} />
-          </Routes>
+        <Navbar/>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/dashboard" element={<UserProfile />} />
+          <Route path="/resetPassword" element={<ResetPassword />} />
+          <Route path="/home" element={<StaticPages heading="Home"/>} />
+          <Route path="/aboutus" element={<StaticPages heading="About Us"/>} />
+          <Route path="/faqs" element={<StaticPages heading="FAQs"/>} />
+          <Route path="/contactus" element={<StaticPages heading="Contact Us"/>} />
+        </Routes>
       </BrowserRouter>
   </div>
   );
