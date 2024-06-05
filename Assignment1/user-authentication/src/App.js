@@ -6,7 +6,6 @@ import UserProfile from './Components/UserProfile';
 import ResetPassword from './Components/ResetPassword';
 import './App.css';
 import StaticPages from "./Components/StaticPages";
-import Static from "./Components/Static";
 
 function App() {
 
@@ -20,10 +19,7 @@ function App() {
               <Route path="/signup" element={<SignUp />} />
               <Route path="/dashboard" element={<UserProfile />} />
               <Route path="/resetPassword" element={<ResetPassword />} />
-              <Route path="/home" element={<Static heading="Home"/>} />
-              <Route path="/about" element={<StaticPages value="About Us" />} />
-              <Route path="/faqs" element={<StaticPages value="FAQs" />} />
-              <Route path="/contact" element={<StaticPages value="Contact Us" />} />
+              <Route path="/staticPages" element={<StaticPages />} />
           </Routes>
       </BrowserRouter>
   </div>

@@ -1,10 +1,10 @@
 import './styles.css';
 
-function StaticPages(props){
+function StaticPages(){
     return(
         <div>
             <span className='user-profile-container'>
-                <h1>{props.value}</h1>
+                <h1>Static Pages</h1>
             </span>
         </div>
     );
