@@ -78,11 +78,9 @@ function Login(){
                                     <input className='login-btn' type="submit" value="LOGIN" />
                                 </div>
                             </form>
-                            {/**  chatGPT **/}
                             <div className="divider">
                                 <span className="divider-text">or</span>
                             </div>
-                            {/**  chatGPT **/}
                             <button className="google-login-btn" onClick={handleGoogleLoginBtnClick}>
                                 <img src={googleIcon} alt="Google icon" className="google-icon" />
                                 Login with Google
@@ -100,8 +98,3 @@ function Login(){
 }
 
 export default Login;
-
-/**
- * Image taken and modified from: https://www.canva.com/templates/EAFweV1TAJ8-company-website-business-website-in-blue-white-black-2d-illustration-style/
- * 
- */

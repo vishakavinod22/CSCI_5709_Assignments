@@ -94,7 +94,6 @@ body {
     background: #FF9A00;
 }
 
-/**  chatGPT **/
 .divider {
     display: flex;
     align-items: center;
@@ -114,7 +113,6 @@ body {
     margin: 0 10px;
     color: #000;
 }
-/**  chatGPT **/
 
 .google-login-btn{
     margin: 22px auto;
