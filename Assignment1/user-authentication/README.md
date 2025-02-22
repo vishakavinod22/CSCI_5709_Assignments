@@ -1,25 +1,19 @@
 # Assignment 1
 
 Feature: User Authentication for EventAura, and event discovery platform
-Tasks: 
-    * User Sign Up
-    * User Login
-    * Forgot Password
-
-* *Date Created*: 03 JUN 2024
-* *Last Modification Date*: 05 JUN 2024
-* *Assignment Repository URL*: <https://git.cs.dal.ca/vvinod/csci_5709_assignments>
-* *Assignment 1 Git URL*: <https://git.cs.dal.ca/vvinod/csci_5709_assignments/-/tree/main/Assignment1/user-authentication?ref_type=heads>
-* *Netlify Deployment URL*: <https://csci5709-vvinod-a1.netlify.app>
-
-## Authors
-
-* [Vishaka](vs235403@dal.ca)
+Tasks:
+* User Sign Up 
+* User Login 
+* Forgot Password
 
 ## Deployment
 
 * I created a folder called Assignment 1 withing the Assignments repository
-* The code has also been deployed on netlify
+* The code has also been deployed on netlify 
+* Netlify Deployment URL*: <https://csci5709-vvinod-a1.netlify.app>
+
+## Screenshot
+![Screenshot of the web image](WebScreenshot.png)
 
 ## Built With
 
