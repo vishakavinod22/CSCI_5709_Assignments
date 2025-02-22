@@ -10,7 +10,7 @@ Tasks:
 
 * I created a folder called Assignment 1 withing the Assignments repository
 * The code has also been deployed on netlify 
-* Netlify Deployment URL*: <https://csci5709-vvinod-a1.netlify.app>
+* Netlify Deployment URL: <https://csci5709-vvinod-a1.netlify.app>
 
 ## Screenshot
 ![Screenshot of the web image](WebScreenshot.png)
